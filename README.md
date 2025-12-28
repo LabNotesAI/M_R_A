@@ -56,12 +56,20 @@ docker-compose up -d
 
 4. Open your browser at http://localhost:3000
 
-Notes
+**Notes**
 Some debug code may remain; remove or adjust before development use.
 Make sure to replace environment variables with your own credentials.
 
-Lessons Learned / Highlights
+**Lessons Learned / Highlights**
 AI-assisted coding can accelerate development, but human oversight is essential.
 Proper route matching and environment variable handling in CRA + Docker are common pitfalls.
 Full-stack debugging requires understanding both frontend and backend behavior.
 This project demonstrates the combination of AI tools and human problem-solving to create functional applications efficiently.
+
+**Home Page**
+![Homepage](https://github.com/user-attachments/assets/9b6ac638-2d38-42c6-b193-63283247d0fa)
+
+**Document Detail Page**
+![Document_Detail](https://github.com/user-attachments/assets/e7e0018f-0b52-45d7-8788-2fc2f17fd8e0)
+
+

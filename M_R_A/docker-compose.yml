@@ -1,0 +1,18 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "8111:8111"
+    environment:
+      MONGODB_URI: 
+      MONGODB_DATABASE: 
+      MONGODB_COLLECTION:
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "3000:80"
+    environment:
+      REACT_APP_API_BASE_URL: http://localhost:8111
